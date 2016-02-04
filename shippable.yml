@@ -30,7 +30,7 @@ build:
 
 integrations:
   hub:
-    - integrationName: ship-quay
+    - integrationName: "ship-quay"
       type: quay
       branches:
         only:
