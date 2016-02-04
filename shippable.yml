@@ -31,7 +31,7 @@ build:
 integrations:
   hub:
     - integrationName: ship-quay
-      type: docker
+      type: quay
       branches:
         only:
           - master
