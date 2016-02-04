@@ -23,6 +23,7 @@ build:
   ci:
     - ps -eax
     - ls -al
+    - echo $M1
 
   post_ci:
     - docker push quay.io/shippablequay/sample_py_quay
@@ -32,6 +33,4 @@ integrations:
   hub:
     - integrationName: "ship-quay"
       type: "quay.io"
-      branches:
-        only:
-          - master
+      
