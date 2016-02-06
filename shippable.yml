@@ -22,7 +22,7 @@ build:
   ci:
     - ps -eax
     - ls -al
-    - echo "$FOO"
+    - echo "$FOO"  
 
  # post_ci:
   #  - docker push shippabledocker/sample_python
