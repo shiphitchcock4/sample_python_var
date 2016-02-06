@@ -7,9 +7,9 @@ env:
   global:
     - secure: XWFW5Uoxut8VGn8fal0DR2ys9ABhzqvxwU82tBMZVKZG1RswO6oNTc1GkGw7vB7LKzQVGFg974pyuo3mCKZoN7z6lcseF+piwQsuSCIpsbKW9c1XZUu9z7uOTVOVSRq2UxzVvMi+Dos1ZaTp6Fa2oiOj/hN+9f4mJqhH1R6HRnvANBUuszRHrSy/Bdjgmr9UHASeqjk/360tGY3uXUL5ZH3lXyWtgwXX4imkTrqznmNwd9B01gp9p9Kbq2UGVmZXVt6neGGbuzmcUC0zrD/gCxSKDUUthc23Dp7ltJcohf5O9SbrjjgFf07jwwcmPKtdIqqr5Mk0GQTd7kVkAQoq5g==
 
-  #matrix:
-   # - M1=ONE
-
+  matrix:
+   - M1=ONE
+   - secure: WaSAticwbFKBtQ3OL9O94oFRn/4m5EwZUxKcmqlb0tHPLlZZF5FRhqJxKAXj9cl2ZsJCng4rHP6LTANoE5PH9+tTkEACEKjfPg9XavfEt2AV+X+N2VFoVlA5Q5H8nUegSVlFJD8BVE3mpMm6tqAROb1i9M2T8bIEW8FzWyeJfPxzsUhHVlw/LkBuQF41h8iDffV9XuseBKjSZlIL5NSsweFSjXa6+9giIeJthflgnRr9hkwBrMiasqgVGl5dNnYG7DLsk8eYf40MCXOpysoAvN4pkcc5kVmmPcY9icK6rHVC80Y4HYlJt2wbK3zj1YuBVR1RePUjBu4GvsP6AkhnWQ==
 build:
  # pre_ci:
   #  - docker build -t=shippabledocker/sample_python .
