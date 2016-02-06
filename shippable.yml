@@ -5,8 +5,7 @@ python:
 
 env:
   global:
-    - foo=bar
-    - BAR=FOO
+    - foo=bar BAR=FOO
   matrix:
     - M1=ONE
 
