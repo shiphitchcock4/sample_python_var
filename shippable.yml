@@ -22,7 +22,7 @@ build:
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
-    - ps -eax
+    - ps -eax  
     - ls -al
     - echo "$foo"
     - echo "$BAR"
