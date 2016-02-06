@@ -7,8 +7,9 @@ env:
   global:
   - secure: 1DYsr/zeNp/wr9fxZf2MzZhc7ejDZl2E9VvmmN+GYswGBVP3IXfB1rSZHOZd5CaZvJhOyjfdNPcs3xZn3a62CQVPsUqVX5UFYi8av7e1z4QNg/ei8BkSjPRu6hKFXZT66rnKbwQq76deVJzkkaTs5ZG9et9sYmH0cQMhxVnzszzaRQAQooPfET4DFnAxaceycrO/FpDAR9WOYv3/2kISYs1HueD0uhrOQ7gUEqCQSUZF8BxPn0Iok1naXfgUOkPAsQibSoOjMss+CzPZedOl0NXr8U1MkEGPXOY1+NNzZXHM7ohAJ2zJL9zjX/j9Y8lJvnBAlYf6iXrcAxkzcU3dJg==
 
-  #matrix:
-   # - M1=ONE
+  matrix:
+    - M1=ONE
+    - secure: WaSAticwbFKBtQ3OL9O94oFRn/4m5EwZUxKcmqlb0tHPLlZZF5FRhqJxKAXj9cl2ZsJCng4rHP6LTANoE5PH9+tTkEACEKjfPg9XavfEt2AV+X+N2VFoVlA5Q5H8nUegSVlFJD8BVE3mpMm6tqAROb1i9M2T8bIEW8FzWyeJfPxzsUhHVlw/LkBuQF41h8iDffV9XuseBKjSZlIL5NSsweFSjXa6+9giIeJthflgnRr9hkwBrMiasqgVGl5dNnYG7DLsk8eYf40MCXOpysoAvN4pkcc5kVmmPcY9icK6rHVC80Y4HYlJt2wbK3zj1YuBVR1RePUjBu4GvsP6AkhnWQ==
 
 build:
   pre_ci:
