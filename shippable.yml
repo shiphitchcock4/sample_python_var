@@ -11,7 +11,7 @@ env:
     - secure: LEnGpeR7d3T5/ylbtHgWB64Rbq/t6m0O/9PltrfyHKabWvgTRB/Ag9ky+asWqCzfSv9orcy6ZXVIc1wS/XW+mn+AdJOr02dBN5PX2zgIIF6ay2lxKL7j7ackwH4NdeVvDy9UhoxabDRfaUdDLSUGWCUmxlD8/mB/oZUHTn8DyMs/gYoZ4Y8pzAye4t77C8RFpqAxP75ffHNyVDuBsz5gBeD8DAYRT3oQfSy4g9eFPCh3an7Q+4fpaHg1phtLN4zzUuUiKHJH8lDUo9eRvjnwoNYHjEyzSe3BUOZloSnNVJKLdT8JsziYxTL2sVVkFrLoFQTsXBnlD1HqJQ5SIeTyfg==
   matrix:
     - M1=ONE
-    
+     
 build:
   pre_ci:
     - docker build -t=shippabledocker/sample_python .
