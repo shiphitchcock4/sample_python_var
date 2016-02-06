@@ -4,10 +4,10 @@ python:
   - 3.4
 
 env:
-  global:
+  #global:
     - foo=bar BAR=FOO
-  matrix:
-    - M1=ONE
+  #matrix:
+   # - M1=ONE
     
 build:
   pre_ci:
