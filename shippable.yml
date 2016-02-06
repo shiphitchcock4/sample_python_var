@@ -5,8 +5,8 @@ python:
 
 env:
   global:
-    - secure: XWFW5Uoxut8VGn8fal0DR2ys9ABhzqvxwU82tBMZVKZG1RswO6oNTc1GkGw7vB7LKzQVGFg974pyuo3mCKZoN7z6lcseF+piwQsuSCIpsbKW9c1XZUu9z7uOTVOVSRq2UxzVvMi+Dos1ZaTp6Fa2oiOj/hN+9f4mJqhH1R6HRnvANBUuszRHrSy/Bdjgmr9UHASeqjk/360tGY3uXUL5ZH3lXyWtgwXX4imkTrqznmNwd9B01gp9p9Kbq2UGVmZXVt6neGGbuzmcUC0zrD/gCxSKDUUthc23Dp7ltJcohf5O9SbrjjgFf07jwwcmPKtdIqqr5Mk0GQTd7kVkAQoq5g==
-
+    - foo=bar
+    - BAR=FOO
   matrix:
    - M1=ONE
    
