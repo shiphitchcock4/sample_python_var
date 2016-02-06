@@ -5,7 +5,7 @@ python:
 
 env:
   #global:
-  - secure: jQVW7h1UvAp0Zg1NvYzmgYzpX+JK27HCRulvCnkw9+1rW0ezJLOOjIOfYLszNcX5DUuuhXnR/oWT/Z094Tdsx0CbwC1UtszLAO453VAMrtgnCSXwOchcVkx1/GJt68hBfdLJETWFWKIC17ly/vb2QNmrrVnMSrvg9rIzTHKkRBX+tIIVqW0R4qX5ku835fq9hxSw+XBpiqkL4WtYFkGY/m0Kz7y8VKAGOGIqKKnzf8PgDCkBDnJcMgjgh8ieY7sM0K3TfpVh8hLBy4RyycRJVyYDDG4TdNdqazdueD+qGAHTaxbJJZBcrEVgukgz6kj0qVMpDFT0u5km8qAhmhOL1IA==
+  - secure: QVW7h1UvAp0Zg1NvYzmgYzpX+JK27HCRulvCnkw9+1rW0ezJLOOjIOfYLszNcX5DUuuhXnR/oWT/Z094Tdsx0CbwC1UtszLAO453VAMrtgnCSXwOchcVkx1/GJt68hBfdLJETWFWKIC17ly/vb2QNmrrVnMSrvg9rIzTHKkRBX+tIIVqW0R4qX5ku835fq9hxSw+XBpiqkL4WtYFkGY/m0Kz7y8VKAGOGIqKKnzf8PgDCkBDnJcMgjgh8ieY7sM0K3TfpVh8hLBy4RyycRJVyYDDG4TdNdqazdueD+qGAHTaxbJJZBcrEVgukgz6kj0qVMpDFT0u5km8qAhmhOL1IA==
 
   #matrix:
    # - M1=ONE
@@ -32,5 +32,5 @@ build:
 integrations:
   hub:
     - integrationName: ship-docker
-      type: docker  
+      type: docker    
       
