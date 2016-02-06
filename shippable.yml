@@ -12,10 +12,10 @@ env:
 
 build:
   pre_ci:
-    - docker build -t=quay.io/shippablequay/sample_py_quay .
+    - docker build -t=shippabledocker/sample_python .
 
   pre_ci_boot:
-    image_name: quay.io/shippablequay/sample_py_quay
+    image_name: shippabledocker/sample_python
     image_tag: latest
     pull: false
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
@@ -26,11 +26,11 @@ build:
     - echo $M1
 
   post_ci:
-    - docker push quay.io/shippablequay/sample_py_quay
+    - docker push shippabledocker/sample_python
 
 
 integrations:
   hub:
-    - integrationName: "ship-quay"
-      type: "quay.io"
+    - integrationName: ship-docker
+      type: docker
       
