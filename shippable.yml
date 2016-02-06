@@ -11,13 +11,13 @@ env:
    # - M1=ONE
 
 build:
-  pre_ci:
-    - docker build -t=shippabledocker/sample_python .
+ # pre_ci:
+  #  - docker build -t=shippabledocker/sample_python .
 
   pre_ci_boot:
     image_name: shippabledocker/sample_python
     image_tag: latest
-    pull: false
+    pull: true
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
@@ -25,8 +25,8 @@ build:
     - ls -al
     - echo "$FOO"
 
-  post_ci:
-    - docker push shippabledocker/sample_python
+  #post_ci:
+   # - docker push shippabledocker/sample_python
 
 
 integrations:
