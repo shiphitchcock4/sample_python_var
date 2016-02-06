@@ -5,7 +5,7 @@ python:
 
 env:
   #global:
-  - FOO=FUBU
+  - 1FOO=1FUBU
 
   #matrix:
    # - M1=ONE
