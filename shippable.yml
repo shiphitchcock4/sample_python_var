@@ -4,7 +4,7 @@ python:
   - 3.4
 
 env:
-  global:
+  global:  
   
     - TOO=TEE
     - secure: 0IbdjC988h7/pzQvrn7G8Xj2MwzptHm1N0NiI++CtZ2sKckPiw1ldqgTUTxGSaCS+YxaKc8H85/KvEiqXN2iOBLDKiRI9zJDVkMlydR9duEO41Imc7Ra88X8W20U/7cogXuDlVdNf8usJ+Bz7RNSMXgH1U1b2oQmlrubVGHUP8yxjIQQ2XaoGDcGZusPaFDVaBSz79aVB9oqymjCsIRJmGQ6GeNAGJCRcaqch0QzOWT4xquzXQiyoc182qg/IsuofDT33F9A/Krah9CyX0gGdYVqW3VadO4QqA3XgcpF73G4zQwPldg+n0vjYo65CtiSc4HzPimug2HQaGZqaW37mw==
