@@ -19,7 +19,7 @@ build:
   pre_ci_boot:
     image_name: shippabledocker/sample_python
     image_tag: latest
-    pull: false  
+    pull: true 
     options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
 
   ci:
