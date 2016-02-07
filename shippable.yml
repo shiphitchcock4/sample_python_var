@@ -62,7 +62,7 @@ build:
 
 
 integrations:
-  hub:
+  hub:  
     - integrationName: ship-docker
       type: docker  
       
