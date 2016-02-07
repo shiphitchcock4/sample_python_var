@@ -1,17 +1,16 @@
 language: 
   - python
-  - node_js
 python:
   - 3.4
-node_js:
-  - 0.12
+
 
 env:
   global:
-    - foo=bar 
+    - foo=bar
+    - secure: RE43MOInpPIiaA7Cs6KVPftE1zj/2kHr2ekrtjJAfD5xeeeWU7RNMxJYFBi7ei4C5W1Bjf66SwV+tPxNBcqB6E24W2rdnXvBdi8aZvgTBg+UPfN2TLLeUYo3GiIU0wU8y74VF9t6bHXN/0dRUhqun4dYRbcULw8KXLzjOtsBnbz5nbWhrF6kqESfJu2gIvAq1xJwTMnslihirieWkR96vewibWf5CUAHyRbdWhCbYwNEr4mthoZxlfXVhJBxyqj1YzLGjgOsr4667QQLH7oFqqubzXVyewPa5IeE2UVNW/h0w3ZrMj4kGFXAqGUEbf47g7jGKKbt0Zo1m1+RaofTUA==
   matrix:
     - M1=ONE
-    - TOO=TEE
+    
      
 build:
  # pre_ci:
@@ -27,7 +26,8 @@ build:
     - ps -eax
     - ls -al 
     - echo "$foo"
-    - echo "$TOO"
+    - echo "$A"
+    - echo "$C"
   #post_ci:
    # - docker push shippabledocker/sample_python
 
