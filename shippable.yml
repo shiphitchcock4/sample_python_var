@@ -12,8 +12,8 @@ env:
     - M1=ONE
      
 build:
-  pre_ci:
-    - docker build -t=shippabledocker/sample_python .
+ # pre_ci:
+  #  - docker build -t=shippabledocker/sample_python .
 
   pre_ci_boot:
     image_name: drydock/u12nodpls
@@ -27,8 +27,8 @@ build:
     - echo "$foo"
     - echo "$BAR"
     - echo "$TOO"
-  post_ci:
-    - docker push shippabledocker/sample_python
+  #post_ci:
+   # - docker push shippabledocker/sample_python
 
 
 integrations:
@@ -40,28 +40,3 @@ integrations:
   matrix:
     - M1=ONE
 
-build:
- # pre_ci:
-  #  - docker build -t=shippabledocker/sample_python .
-
-  pre_ci_boot:
-    image_name: drydock/u12pyt
-    image_tag: tip
-    pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
-
-  ci:
-    - ps -eax
-    - ls -al
-    - echo "$foo"
-    - echo "$BAR"
-
-  #post_ci:
-   # - docker push shippabledocker/sample_python
-
-
-integrations:
-  hub:
-    - integrationName: ship-docker
-      type: docker  
-      
