@@ -22,7 +22,7 @@ build:
 
   ci:
     - ps -eax
-    - ls -al
+    - ls -al 
     - echo "$foo"
     - echo "$TOO"
   #post_ci:
