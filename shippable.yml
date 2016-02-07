@@ -25,7 +25,6 @@ build:
     - ps -eax
     - ls -al
     - echo "$foo"
-    - echo "$BAR"
     - echo "$TOO"
   post_ci:
     - docker push shippabledocker/sample_python
