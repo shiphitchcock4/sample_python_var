@@ -13,7 +13,7 @@ env:
     
 build:
   pre_ci:
-    - docker build -t=shippabledocker/sample_python .
+    - docker build -t=shippabledocker/sample_python .  
 
   pre_ci_boot:
     image_name: shippabledocker/sample_python
