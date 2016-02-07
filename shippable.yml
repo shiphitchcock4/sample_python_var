@@ -1,7 +1,11 @@
-language: python
+language: 
+  - python
+  - node_js
 
 python:
   - 3.4
+node_js:
+  -0.12
   
 
 env:
@@ -33,6 +37,6 @@ build:
 integrations:
   hub:
     - integrationName: ship-docker
-      type: docker  
+      type: docker   
       
 
