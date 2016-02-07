@@ -37,32 +37,3 @@ integrations:
       type: docker  
       
 
-  matrix:
-   - M1=ONE
-   
-build:
-  #pre_ci:
-   # - docker build -t=shippabledocker/sample_python .
-
-  pre_ci_boot:
-    image_name: shippabledocker/sample_python
-    image_tag: latest
-    pull: true
-    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
-
-  ci:
-    - ps -eax
-    - ls -al
-    - echo "$foo"
-    - echo "$BAR"
-    - echo "TOO"
-
-  post_ci:
-    - docker push shippabledocker/sample_python
-
-
-integrations:
-  hub:  
-    - integrationName: ship-docker
-      type: docker  
-      
