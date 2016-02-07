@@ -26,9 +26,7 @@ build:
     - echo "$foo"
     - echo "$A"
     - echo "$C"
-    - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_PYTHON_VERSION
-    - npm install
-    - python --version
+    
    
   post_ci:
     - docker push shippabledocker/sample_python
