@@ -30,6 +30,9 @@ build:
     - ls -al
     - echo "$foo"
     - echo "$TOO"
+    - source ~/.nvm/nvm.sh && nvm install $SHIPPABLE_PYTHON_VERSION
+    - npm install
+    - python --version
    
   post_ci:
     - docker push shippabledocker/sample_python
