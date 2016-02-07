@@ -7,7 +7,7 @@ python:
 env:
   global:
     - foo=bar
-  matrix:
+  matrix:  
     - M1=ONE
     - TOO=TEE
     
